@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MonitorInfoServer", "MonitorInfoServer\MonitorInfoServer.vcxproj", "{BBFE17C6-FEB4-4BD0-B4EA-2C82B124EA36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBFE17C6-FEB4-4BD0-B4EA-2C82B124EA36}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BBFE17C6-FEB4-4BD0-B4EA-2C82B124EA36}.Debug|Win32.Build.0 = Debug|Win32
+		{BBFE17C6-FEB4-4BD0-B4EA-2C82B124EA36}.Release|Win32.ActiveCfg = Release|Win32
+		{BBFE17C6-FEB4-4BD0-B4EA-2C82B124EA36}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
