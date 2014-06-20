@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window mininfo="480,20">
+    <Font name="Arial" size="14" bold="false" italic="false" default="true" />
+    <HorizontalLayout name="HorizontalLayoutUI1" bkcolor="#FFF2F5FA" bkcolor2="#F9DAFB6A" bkcolor3="#FFF2F5FA" height="20" bordersize="1" bordercolor="FFFFFFFF">
+		<VerticalLayout name="HorizonLabel1" minwidth="80">
+			<HorizontalLayout>
+				<Control width="10"/>
+				<Label name="statuslabel" text="Ready"  float="false"  width="60" textcolor="#FF000000" align="left" />
+				
+			</HorizontalLayout>
+		</VerticalLayout>
+		
+		<VerticalLayout name="HorizonLabel2" minwidth="200">
+			<HorizontalLayout>
+				<Label name="separate1"  float="false"  width="2"  height="20" bkcolor="#FFFFFFA0" bkcolor2="#00FF00FF" bkcolor3="#FFFFFFA0"/>
+				<Control width="10"/>
+				<Label name="canvaslabel" text="Canvas Info:"   float="false"  textcolor="#FF000000"  align="left" />
+				<Label name="separate2"  float="false"  width="2"  height="20" bkcolor="#FFFFFFA0" bkcolor2="#00FF00FF" bkcolor3="#FFFFFFA0"/>
+			</HorizontalLayout>
+		</VerticalLayout>
+		<VerticalLayout name="HorizonLabel3" width="600">
+			<HorizontalLayout>
+				<Control width="10"/>
+				<Label name="monitorlabel" text="Monitor Info:"  float="false"  textcolor="#FF000000" align="left" />
+			</HorizontalLayout>
+		</VerticalLayout>
+    </HorizontalLayout>
+</Window>

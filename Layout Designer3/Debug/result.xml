@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ScreenCanvas width="1000" height="800" horizon="1920" vertical="1080">
+    <Screen id="0" type="Dell 19&apos;" x="0" y="0" horizon="200" vertical="100" width="565" height="346" borderleft="2" bordertop="2" borderright="2" borderbottom="3">
+        <Position centerx="275" centery="164" rotation="359" horizon="-858993460" vertical="-858993460" />
+    </Screen>
+    <Screen id="1" type="Dell 19&apos;" x="0" y="346" horizon="200" vertical="100" width="565" height="346" borderleft="2" bordertop="2" borderright="2" borderbottom="3">
+        <Position centerx="282" centery="519" rotation="0" horizon="-858993460" vertical="-858993460" />
+    </Screen>
+    <Screen id="2" type="Dell 19&apos;" x="565" y="0" horizon="200" vertical="100" width="565" height="346" borderleft="2" bordertop="2" borderright="2" borderbottom="3">
+        <Position centerx="847" centery="173" rotation="0" horizon="-858993460" vertical="-858993460" />
+    </Screen>
+    <Screen id="3" type="Dell 19&apos;" x="565" y="346" horizon="200" vertical="100" width="565" height="346" borderleft="2" bordertop="2" borderright="2" borderbottom="3">
+        <Position centerx="847" centery="519" rotation="0" horizon="-858993460" vertical="-858993460" />
+    </Screen>
+</ScreenCanvas>

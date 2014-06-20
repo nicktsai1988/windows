@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="200,563">
+<Default name="Button" value="normalimage=&quot;file=&apos;button_nor.bmp&apos; corner=&apos;4,2,4,2&apos; fade=&apos;200&apos; hsl=&apos;true&apos;&quot; hotimage=&quot;file=&apos;button_over.bmp&apos; corner=&apos;4,2,4,2&apos; fade=&apos;200&apos; hsl=&apos;true&apos;&quot; pushedimage=&quot;file=&apos;button_down.bmp&apos; corner=&apos;4,2,4,2&apos; fade=&apos;200&apos; hsl=&apos;true&apos; &quot; " />
+    <VerticalLayout name="VerticalLayoutUI1" width="200" height="573" bkcolor="#FFFFFFFF" bkcolor2="#FFE3F4B4" bkcolor3="#FFFFFFFF" vscrollbar="true">
+        <HorizontalLayout name="HorizontalLayoutUI1" width="200" maxheight="50" minheight="30" />
+        <HorizontalLayout name="HorizontalLayoutUI2" width="200" height="140" bordercolor="#00A6CAF0" focusbordercolor="#00FFFBF0" bordersize="1" borderround="10,10">
+            <Button name="ButtonUI1" text="+" float="true" pos="140,25,0,0" width="50" height="31" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Button name="ButtonUI2" text="-" float="true"  pos="13,26,0,0" width="52" height="31" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label name="LabelUI1" text="15.0" float="true" pos="69,26,0,0" width="60" height="30" textcolor="#00FFFBF0" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Button name="ButtonUI3" text="-" float="true" pos="13,75,0,0" width="52" height="31" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label name="LabelUI2" text="20" float="true" pos="71,75,0,0" width="60" height="30" textcolor="#00FFFBF0" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Button name="ButtonUI4" text="+" float="true" pos="140,75,0,0" width="50" height="31" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+        </HorizontalLayout>
+        <HorizontalLayout name="HorizontalLayoutUI3" width="200" maxheight="50" minheight="20" />
+        <HorizontalLayout name="HorizontalLayoutUI4" width="200" height="140" bordercolor="#00A6CAF0" focusbordercolor="#00FFFBF0" bordersize="1" borderround="10,10">
+            <Button name="ButtonUI5" text="Up" float="true" pos="75,9,0,0" width="54" height="35" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Button name="ButtonUI6" text="Right" float="true" pos="137,50,0,0" width="54" height="35" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Button name="ButtonUI7" text="Down" float="true" pos="75,91,0,0" width="54" height="35" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Button name="ButtonUI8" text="Left" float="true" pos="10,51,0,0" width="54" height="35" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label name="LabelUI3" text="(480,320)" float="true" pos="71,51,0,0" width="61" height="33" textcolor="#00FFFBF0" disabledtextcolor="#FFA7A6AA" align="center" />
+        </HorizontalLayout>
+        <HorizontalLayout name="HorizontalLayoutUI5" width="200" maxheight="50" minheight="20" />
+        <HorizontalLayout name="HorizontalLayoutUI6" width="200" height="140" bordercolor="#00A6CAF0" focusbordercolor="#00FFFBF0" bordersize="1" borderround="10,10">
+            <Button name="ButtonUI9" text="+" float="true" pos="75,12,0,0" width="54" height="35" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Button name="ButtonUI10" text="--" float="true" pos="11,54,0,0" width="54" height="35" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label name="LabelUI4" text="30.5" float="true" pos="72,54,0,0" width="61" height="33" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Button name="ButtonUI11" text="-" float="true" pos="76,94,0,0" width="54" height="35" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Button name="ButtonUI12" text="++" float="true" pos="138,53,0,0" width="54" height="35" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+        </HorizontalLayout>
+        <HorizontalLayout name="HorizontalLayoutUI7" width="200" maxheight="60" minheight="30" />
+    </VerticalLayout>
+</Window>

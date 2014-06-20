@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="940,60" mininfo="480,60">
+    <Font name="Arial" size="14" bold="false" italic="false" default="true" />
+    <Default name="Button" value="normalimage=&quot;file=&apos;button_nor.bmp&apos; corner=&apos;4,2,4,2&apos; fade=&apos;200&apos; hsl=&apos;true&apos;&quot; hotimage=&quot;file=&apos;button_over.bmp&apos; corner=&apos;4,2,4,2&apos; fade=&apos;200&apos; hsl=&apos;true&apos;&quot; pushedimage=&quot;file=&apos;button_down.bmp&apos; corner=&apos;4,2,4,2&apos; fade=&apos;200&apos; hsl=&apos;true&apos; &quot; " />
+    <HorizontalLayout name="HorizontalLayoutUI1" bordersize="0" height="60" bkcolor="#FFF2F5FA" bkcolor2="#F9DAFB6A" bkcolor3="#FFF2F5FA" bordercolor="#FFFFFFFF">
+        <VerticalLayout name="VerticalLayoutUI1" width="880">
+            <Button name="detectbutton" text="Detect" bordersize="0" float="true" pos="5,10,0,0" width="60" height="40" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" hottextcolor="#FFFF0000" />
+            <Button name="openbutton" text="Open" bordersize="0" float="true" pos="79,10,0,0" width="60" height="40" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center"  hottextcolor="#FFFF0000" />
+            <Button name="savebutton" text="Save" bordersize="0" float="true" pos="151,10,0,0" width="60" height="40" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" hottextcolor="#FFFF0000" />
+            <Button name="saveasbutton" text="Save As" bordersize="0" float="true" pos="224,10,0,0" width="80" height="40" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" hottextcolor="#FFFF0000" />
+			<Button name="revertbutton" text="Revert" bordersize="0" float="true" pos="317,10,0,0" width="80" height="40" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center"  hottextcolor="#FFFF0000" />
+            <Label name="LabelUI1" bordersize="0" float="true" pos="403,0,0,0" width="2" height="60" bkcolor="#FFFFFFA0" bkcolor2="#00FF00FF" bkcolor3="#FFFFFFA0"/>
+            <Button name="ButtonUI1" text="Undo" float="true" pos="411,10,0,0" width="60" height="40" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" hottextcolor="#FFFF0000"/>
+            <Button name="ButtonUI2" text="Redo" float="true" pos="485,10,0,0" width="60" height="40" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" hottextcolor="#FFFF0000"/>
+            <Label name="LabelUI2" bordersize="0" float="true" pos="651,0,0,0" width="2" height="60" bkcolor="#FFFFFFA0" bkcolor2="#00FF00FF" bkcolor3="#FFFFFFA0"/>
+            <Button name="ButtonUI3" text="Select All" float="true" pos="557,10,0,0" width="90" height="40" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" hottextcolor="#FFFF0000"/>
+            <Button name="ButtonUI4" text="Design View" float="true" pos="657,10,0,0" width="90" height="40" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" hottextcolor="#FFFF0000"/>
+            <Label name="LabelUI3" bordersize="0" float="true" pos="755,2,0,0" width="2" height="60" bkcolor="#FFFFFFA0" bkcolor2="#00FF00FF" bkcolor3="#FFFFFFA0"/>
+			<Container name="container1"  pos="765,10,0,0" float="true" width="100" height="40" >
+			<!--
+				<Label name="LabelUI4" text="Zoom:"  float="true" pos="3,0,0,0" width="42" height="40" align="center" />
+			-->
+				<Combo dropboxsize="0,150" itemalign="center"  float="true" pos="0,0,0,0" width="100" height="40"  itemtextcolor="#FF000000" 
+				itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FFFF0000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF"
+				name="combozoom" tooltip="Select the zoom value" normalimage="file='Combo_nor.bmp'" hotimage="file='Combo_over.bmp' " pushedimage="file='Combo_over.bmp' ">
+					<ListLabelElement text="Auto" selected="true"/>
+					<ListLabelElement text="100%" />
+					<ListLabelElement text="50%" />
+					<ListLabelElement text="25%"/>
+					<ListLabelElement text="10%" />
+				</Combo>
+			</Container>
+        </VerticalLayout>
+        <VerticalLayout name="VerticalLayoutUI2" />
+        <VerticalLayout name="VerticalLayoutUI3" width="80">
+            <Button name="helpbutton" text="Help" float="true" pos="10,10,0,0" width="60" height="40" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" hottextcolor="#FFFF0000"/>
+        </VerticalLayout>
+    </HorizontalLayout>
+</Window>

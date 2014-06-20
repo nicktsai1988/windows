@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ScreenCanvas width="1000" height="800" horizon="1920" vertical="1080">
+    <Screen id="0" type="dell" x="0" y="0" horizon="1920" vertical="1080" width="700" height="392" borderleft="2" bordertop="2" borderright="2" borderbottom="2">
+        <Position centerx="222" centery="177" rotation="0" horizon="-858993460" vertical="-858993460" />
+    </Screen>
+    <Screen id="1" type="dell" x="1920" y="0" horizon="1920" vertical="1080" width="700" height="392" borderleft="2" bordertop="2" borderright="2" borderbottom="2">
+        <Position centerx="1056" centery="198" rotation="0" horizon="-858993460" vertical="-858993460" />
+    </Screen>
+    <Screen id="2" type="dell" x="0" y="1080" horizon="1920" vertical="1080" width="700" height="392" borderleft="2" bordertop="2" borderright="2" borderbottom="2">
+        <Position centerx="177" centery="610" rotation="0" horizon="-858993460" vertical="-858993460" />
+    </Screen>
+    <Screen id="3" type="dell" x="1920" y="1080" horizon="1920" vertical="1080" width="700" height="392" borderleft="2" bordertop="2" borderright="2" borderbottom="2">
+        <Position centerx="1056" centery="594" rotation="0" horizon="-858993460" vertical="-858993460" />
+    </Screen>
+</ScreenCanvas>
